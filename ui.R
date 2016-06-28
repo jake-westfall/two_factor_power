@@ -7,7 +7,7 @@ shinyUI(fluidPage(
   fluidRow(
     column(1, div(a("Article", href="http://jakewestfall.org/publications/JWK_AnnRev.pdf"))),
     column(3, div(a("Supplemental Appendix: Additional topics", href="http://jakewestfall.org/publications/JWK_AnnRev_Appendix.pdf"))),
-    column(3, div(a("Code for this app (using package 'shiny' in R)", href="http://jakewestfall.org/resources/two_factor_power.zip"))),
+    column(3, div(a("Code for this app (using package 'shiny' in R)", href="https://github.com/jake-westfall/two_factor_power"))),
     column(2, div(a("Back to JakeWestfall.org", href="http://jakewestfall.org")))
   ),
   helpText("Note: when sharing the link to this app, please use the stable redirecting page at",
